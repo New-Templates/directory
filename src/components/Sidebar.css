@@ -63,19 +63,22 @@
     gap: var(--spacing-01);
     padding: var(--spacing-01);
     border: 0.5px solid var(--border-muted);
-    border-radius: var(--spacing-05);
-    background-color: var(--background-secondary);
+    border-radius: var(--spacing-12);
+    background-color: var(--background);
 }
 
 .sidebar-segment {
     flex: 1;
+    height: 1.5rem;
     border: 0.5px solid transparent;
-    border-radius: var(--spacing-05);
+    border-radius: var(--spacing-12);
+    font-family: var(--monospace);
+    font-size: var(--desktop-caption);
+    line-height: var(--lh-desktop-caption);
+    align-content: center;
     text-align: center;
     text-decoration: none;
     color: var(--content-secondary);
-    font-size: var(--desktop-body-sm);
-    line-height: var(--lh-desktop-body-sm);
     transition:
         color var(--duration-fast) var(--ease-smooth-out),
         background-color var(--duration-fast) var(--ease-smooth-out);
@@ -134,7 +137,7 @@
     top: 0;
     height: 0;
     border-radius: var(--spacing-02);
-    background-color: var(--background-selected);
+    background-color: var(--background-secondary);
     opacity: 0;
     pointer-events: none;
     z-index: 0;
