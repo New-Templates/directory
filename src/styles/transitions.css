@@ -99,10 +99,6 @@
   right: -8px;
   pointer-events: none;
 }
-.t-badge[data-open="true"] {
-  animation: t-badge-slide-in var(--badge-slide-dur) var(--badge-slide-ease);
-  will-change: transform;
-}
 
 .t-badge-dot {
   display: block;

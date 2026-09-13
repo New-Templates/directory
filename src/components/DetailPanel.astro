@@ -240,11 +240,11 @@ import DetailVisitButton from './DetailVisitButton.tsx';
         width: 100%;
         box-sizing: border-box;
         padding: var(--spacing-03) var(--spacing-05);
-        border: 1px solid var(--accent);
+        border: 1px solid var(--button);
         border-radius: var(--spacing-05);
         text-align: center;
         text-decoration: none;
-        color: var(--accent);
+        color: var(--button);
         font-size: var(--desktop-body-sm);
         line-height: var(--lh-desktop-body-sm);
     }
@@ -252,11 +252,11 @@ import DetailVisitButton from './DetailVisitButton.tsx';
     /* On hover the colorful border-beam takes over as the stroke, so hide the
        button's own primary border. */
     :global(.detail-action--primary:hover) {
-        color: var(--accent);
+        color: var(--button-hover);
     }
 
     :global(.detail-action:focus-visible) {
-        outline: 1px solid var(--accent);
+        outline: 1px solid var(--button-hover);
         outline-offset: 2px;
     }
 
