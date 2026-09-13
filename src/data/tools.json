@@ -2666,6 +2666,14 @@
           "date-added": "2023-12-28",
           "slug": "open-interpreter"
         },
+    {
+      "title": "OrcaReplay",
+      "body": "Record an agent run and replay it offline.",
+      "tag": "Open-source",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaReplay?ref=riseofmachine.com",
+      "date-added": "2026-09-13",
+      "slug": "orcareplay"
+    },
         {
           "title": "Orchids",
           "body": "The AI Full Stack Engineer.",
