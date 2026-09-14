@@ -7,13 +7,13 @@
   "date-added": "2025-08-04",
   "slug": "poe-api",
   "related": [
+    "elva",
     "builduo",
     "strata",
     "pythagora-20",
     "amazon-sagemaker",
     "tensorblock-forge",
     "cactal",
-    "chartcraft",
-    "screenshot-to-code"
+    "chartcraft"
   ]
 }

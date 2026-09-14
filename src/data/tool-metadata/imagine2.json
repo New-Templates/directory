@@ -7,13 +7,13 @@
   "date-added": "2026-08-20",
   "slug": "imagine2",
   "related": [
+    "image-to-image",
     "image-text-editor",
     "muapi",
     "photo-editor",
     "graficai",
     "fotol-image-generator",
     "promptwall",
-    "magnific",
-    "ai-image-combiner"
+    "magnific"
   ]
 }

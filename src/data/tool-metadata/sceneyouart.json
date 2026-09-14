@@ -9,11 +9,11 @@
   "related": [
     "random-image-generator",
     "imggen-ai",
+    "image-to-image",
     "graficai",
     "bulk-image-generator",
     "fotol-image-generator",
     "image-optimizer",
-    "ezmaker-ai",
-    "ez-img-editor"
+    "ezmaker-ai"
   ]
 }

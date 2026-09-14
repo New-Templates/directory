@@ -7,13 +7,13 @@
   "date-added": "2025-08-30",
   "slug": "graficai",
   "related": [
+    "image-to-image",
     "fotol-image-generator",
     "promptwall",
     "magnific",
     "imagine2",
     "ai-image-combiner",
     "blur-background",
-    "image-describer",
-    "image-text-editor"
+    "image-describer"
   ]
 }

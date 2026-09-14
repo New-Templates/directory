@@ -1,0 +1,19 @@
+{
+  "title": "elva",
+  "description": "API management for AI agents.",
+  "category": "developer",
+  "url": "https://getelva.ai/?ref=riseofmachine.com",
+  "tag": "Freemium",
+  "date-added": "2026-09-15",
+  "slug": "elva",
+  "related": [
+    "cactal",
+    "poe-api",
+    "stackgen",
+    "builduo",
+    "atla",
+    "strata",
+    "smythos",
+    "zen-agents"
+  ]
+}

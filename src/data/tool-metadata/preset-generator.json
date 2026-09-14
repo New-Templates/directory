@@ -12,8 +12,8 @@
     "fotol-image-generator",
     "flux-ai",
     "image-changer-app",
+    "image-to-image",
     "imagine2",
-    "fromimage-ai",
-    "ai-image-combiner"
+    "fromimage-ai"
   ]
 }

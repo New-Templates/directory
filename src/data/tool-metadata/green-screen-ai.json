@@ -12,8 +12,8 @@
     "blur-background",
     "background",
     "imggen-ai",
+    "image-to-image",
     "piximagen",
-    "graficai",
-    "bulk-image-generator"
+    "graficai"
   ]
 }
