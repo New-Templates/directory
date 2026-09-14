@@ -8,12 +8,12 @@
   "slug": "open-interpreter",
   "related": [
     "rybbit",
+    "orcareplay",
     "yylo",
     "new-ui",
     "n8n-workflow-builder",
     "ai-sdk-5-by-vercel",
     "ollama-desktop-app",
-    "axflow",
-    "rysana"
+    "axflow"
   ]
 }

@@ -1,11 +1,11 @@
 {
   "databases": {
     "title": "Databases",
-    "count": 22
+    "count": 25
   },
   "dev-tools": {
     "title": "Dev Tools",
-    "count": 2947
+    "count": 3095
   },
   "cloud-devops": {
     "title": "Cloud & DevOps",
@@ -17,11 +17,11 @@
   },
   "search": {
     "title": "Search",
-    "count": 7
+    "count": 8
   },
   "payments-finance": {
     "title": "Payments & Finance",
-    "count": 3
+    "count": 4
   },
   "communication": {
     "title": "Communication",
@@ -45,7 +45,7 @@
   },
   "security": {
     "title": "Security",
-    "count": 7
+    "count": 8
   },
   "storage": {
     "title": "Storage",
@@ -69,7 +69,7 @@
   },
   "web-scraping": {
     "title": "Web Scraping",
-    "count": 1
+    "count": 2
   },
   "automation": {
     "title": "Automation",
@@ -81,6 +81,6 @@
   },
   "other": {
     "title": "Other",
-    "count": 231
+    "count": 246
   }
 }

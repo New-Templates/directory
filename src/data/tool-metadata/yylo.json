@@ -8,12 +8,12 @@
   "slug": "yylo",
   "related": [
     "n8n-workflow-builder",
+    "orcareplay",
     "new-ui",
     "rybbit",
     "ai-sdk-5-by-vercel",
     "ollama-desktop-app",
     "axflow",
-    "rysana",
-    "tinygrad"
+    "rysana"
   ]
 }

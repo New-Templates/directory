@@ -91,7 +91,7 @@ const showLatest = listingPaths.has(current);
                 id="new-filter-toggle"
                 aria-label="Filter recently added tools"
                 aria-pressed="false"
-                style={showLatest ? undefined : 'display: none;'}
+                style={showLatest && !isMcp ? undefined : 'display: none;'}
             >
                 <span class="sidebar-item-label">Latest</span>
             </button>
@@ -105,20 +105,22 @@ const showLatest = listingPaths.has(current);
                 <span class="sidebar-item-label">Saved tools</span>
                 <span class="sidebar-count" id="favoritesCount"></span>
             </a>
-            <a
-                href="https://github.com/planetabhi/riseofmachine/issues"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="sidebar-item t-learn"
-            >
-                <span class="sidebar-item-label">Submit</span>
-                <span class="t-learn-chevron" aria-hidden="true">
-                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-                        <path class="t-learn-arm t-learn-arm-top" d="M6 4L10 8" />
-                        <path class="t-learn-arm t-learn-arm-bot" d="M10 8L6 12" />
-                    </svg>
-                </span>
-            </a>
+            {!isMcp && (
+                <a
+                    href="https://github.com/planetabhi/riseofmachine/issues"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="sidebar-item t-learn"
+                >
+                    <span class="sidebar-item-label">Submit</span>
+                    <span class="t-learn-chevron" aria-hidden="true">
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                            <path class="t-learn-arm t-learn-arm-top" d="M6 4L10 8" />
+                            <path class="t-learn-arm t-learn-arm-bot" d="M10 8L6 12" />
+                        </svg>
+                    </span>
+                </a>
+            )}
 
             <p class="sidebar-legal">
                 <a
@@ -126,6 +128,11 @@ const showLatest = listingPaths.has(current);
                     target="_blank"
                     rel="noopener noreferrer">@planetabhi</a
                 > 2026 ©<br />
+                <a
+                    href="https://github.com/planetabhi/riseofmachine"
+                    target="_blank"
+                    rel="noopener noreferrer">GitHub</a>
+                <span aria-hidden="true">·</span>
                 <a href="/privacy">Privacy</a>
                 <span aria-hidden="true">·</span>
                 <a href="/terms">Terms</a>
@@ -274,7 +281,7 @@ const showLatest = listingPaths.has(current);
             ),
         );
         const latest = document.getElementById('new-filter-toggle');
-        if (latest) latest.style.display = navHrefs.has(path) && path !== '/' ? '' : 'none';
+        if (latest) latest.style.display = navHrefs.has(path) && path !== '/' && !path.startsWith('/mcp') ? '' : 'none';
         moveNavPill();
     }
 

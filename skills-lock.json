@@ -25,6 +25,12 @@
       "skillPath": "skills/responsive-design/SKILL.md",
       "computedHash": "5f029db3466069b07e55696fd3831ac22175a49de25b864f596a35146264a275"
     },
+    "ship-this": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ship-this/SKILL.md",
+      "computedHash": "720169078262be2cee65992bfd423bd285a2c6313abcbb65e196fac3568aeea2"
+    },
     "ship-ui": {
       "source": "planetabhi/skills",
       "sourceType": "github",
