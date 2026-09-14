@@ -9,11 +9,11 @@
   "related": [
     "axflow",
     "tinygrad",
+    "orcareplay",
     "yylo",
     "n8n-workflow-builder",
     "rybbit",
     "ai-sdk-5-by-vercel",
-    "ollama-desktop-app",
-    "rysana"
+    "ollama-desktop-app"
   ]
 }

@@ -161,6 +161,28 @@
         body.textContent = r.b;
 
         a.append(strong, body);
+
+        // Two pills mirroring the tools card's pricing tag: version + registry.
+        const version = r.v ? (/^v/i.test(r.v) ? r.v : `v${r.v}`) : '';
+        const registry = r.rg[0] ?? '';
+        if (version || registry) {
+            const dist = document.createElement('p');
+            dist.className = 'distribution';
+            if (version) {
+                const pill = document.createElement('span');
+                pill.className = 'tag';
+                pill.textContent = version;
+                dist.appendChild(pill);
+            }
+            if (registry) {
+                const pill = document.createElement('span');
+                pill.className = 'tag';
+                pill.textContent = registry;
+                dist.appendChild(pill);
+            }
+            a.appendChild(dist);
+        }
+
         li.appendChild(a);
         return li;
     }

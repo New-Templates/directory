@@ -7,13 +7,13 @@
   "date-added": "2023-12-26",
   "slug": "zeno",
   "related": [
+    "orcareplay",
     "yylo",
     "new-ui",
     "n8n-workflow-builder",
     "rybbit",
     "ai-sdk-5-by-vercel",
     "ollama-desktop-app",
-    "axflow",
-    "rysana"
+    "axflow"
   ]
 }

@@ -1,0 +1,44 @@
+name: Triage tool submissions
+
+# Runs once when an issue is created. Only validates the Website URL.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    if: contains(join(github.event.issue.labels.*.name, ','), 'tool-suggestion')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            // First non-empty, non-comment line under a "### Heading" (body capped for regex safety).
+            const body = (context.payload.issue.body || '').slice(0, 20000);
+            const field = (heading) =>
+              (body.match(new RegExp(`### +${heading}\\s*([\\s\\S]*?)(?=\\n### |\\n---|$)`, 'i'))?.[1] || '')
+                .replace(/<!--[\s\S]*?-->/g, '')
+                .split('\n').map((l) => l.trim()).find(Boolean) || '';
+
+            const fails = [];
+            // Validate the Website URL with the WHATWG URL parser (Node built-in, RFC 3986 /
+            // URL Standard compliant): must be https and have a dotted host. All other fields
+            // are left for human review.
+            const isHttpsUrl = (v) => { try { const u = new URL(v); return u.protocol === 'https:' && /[^.]\.[^.]/.test(u.hostname); } catch { return false; } };
+            if (!isHttpsUrl(field('Website URL'))) fails.push('Website URL must be a valid `https://` link.');
+
+            const marker = '<!-- triage-bot -->';
+            const label = fails.length ? 'needs-changes' : 'validated';
+            const commentBody = `${marker}\nAutomated review (URL check only, no human yet):\n\n` +
+              (fails.length ? fails.map((f) => `- ❌ ${f}`).join('\n') : '- ✅ Website URL looks valid.');
+
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+
+            // Post the URL-check result as a comment.
+            await github.rest.issues.createComment({ owner, repo, issue_number, body: commentBody });
+
+            await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [label] });

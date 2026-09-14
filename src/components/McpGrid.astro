@@ -23,9 +23,16 @@ const { category } = Astro.props;
 </section>
 
 <style is:global>
-    /* Clamp MCP card title + description to two lines (landing strip + client grid). */
+    /* Clamp MCP card title to one line, description to two (landing strip + client grid). */
     [data-mcp-grid] .link-card strong,
-    #mcp-recent .link-card strong,
+    #mcp-recent .link-card strong {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        overflow: hidden;
+    }
+
     [data-mcp-grid] .link-card p.nu-c-helper-text,
     #mcp-recent .link-card p.nu-c-helper-text {
         display: -webkit-box;
@@ -33,11 +40,5 @@ const { category } = Astro.props;
         -webkit-line-clamp: 2;
         line-clamp: 2;
         overflow: hidden;
-    }
-
-    /* MCP cards drop the distribution row (tags + "new" badge). */
-    [data-mcp-grid] .link-card .distribution,
-    #mcp-recent .link-card .distribution {
-        display: none;
     }
 </style>

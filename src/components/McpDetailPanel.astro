@@ -49,10 +49,6 @@
 
         <div class="detail-snapshot">
             <article class="detail-fact">
-                <p class="detail-label">Install</p>
-                <p class="detail-value" id="mcp-detail-install"></p>
-            </article>
-            <article class="detail-fact">
                 <p class="detail-label">Transports</p>
                 <p class="detail-value" id="mcp-detail-transports"></p>
             </article>
@@ -164,6 +160,7 @@
         color: var(--content-secondary);
         font-size: var(--desktop-caption);
         line-height: var(--lh-desktop-caption);
+        margin-bottom: var(--spacing-06);
     }
 
     .detail-category {
@@ -396,7 +393,6 @@
 
         // Facts.
         const kind = d.installKind || 'none';
-        setText('mcp-detail-install', kind === 'package' ? 'Package' : kind === 'remote' ? 'Remote endpoint' : 'No published install method');
         setText('mcp-detail-transports', (d.transports || '').split(',').filter(Boolean).join(', ') || 'Not provided');
         setText('mcp-detail-registries', (d.registries || '').split(',').filter(Boolean).join(', ') || 'Not provided');
         setText('mcp-detail-version', d.version || 'Not provided');

@@ -10,6 +10,8 @@ interface Props {
     title: string;
     body: string;
     tag?: string | undefined;
+    // Extra pills rendered in the distribution row (MCP: version + registry).
+    pills?: (string | undefined)[] | undefined;
     dateAdded?: string | undefined;
     slug?: string | undefined;
     url: string;
@@ -32,6 +34,7 @@ const {
     title,
     body,
     tag,
+    pills = [],
     dateAdded,
     slug,
     url,
@@ -73,6 +76,7 @@ const panelData = panelLink ? { [panelAttr]: '' } : {};
                 </span>
             )}
             {tag && <span class="tag">{tag}</span>}
+            {pills.filter(Boolean).map((pill) => <span class="tag">{pill}</span>)}
         </p>
     </a>
     {slug && showBookmark && (
