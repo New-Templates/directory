@@ -9,11 +9,11 @@
   "related": [
     "chat-agents",
     "multimodal",
+    "naoma-ai",
     "conduit",
     "ellie",
     "superai",
     "streaml",
-    "security-questionnaire",
-    "salestarget"
+    "security-questionnaire"
   ]
 }

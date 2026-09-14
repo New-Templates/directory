@@ -7,13 +7,13 @@
   "date-added": "2023-12-26",
   "slug": "magnific",
   "related": [
+    "image-to-image",
     "graficai",
     "fotol-image-generator",
     "promptwall",
     "imagine2",
     "ai-image-combiner",
     "blur-background",
-    "image-describer",
-    "image-text-editor"
+    "image-describer"
   ]
 }

@@ -11,9 +11,9 @@
     "preset-generator",
     "image-changer-app",
     "flux-ai-online",
+    "image-to-image",
     "graficai",
     "promptwall",
-    "magnific",
-    "imagine2"
+    "magnific"
   ]
 }

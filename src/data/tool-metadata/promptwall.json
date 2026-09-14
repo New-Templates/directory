@@ -8,12 +8,12 @@
   "slug": "promptwall",
   "related": [
     "image-changer-app",
+    "image-to-image",
     "graficai",
     "fotol-image-generator",
     "magnific",
     "imagine2",
     "fromimage-ai",
-    "ai-image-combiner",
-    "blur-background"
+    "ai-image-combiner"
   ]
 }

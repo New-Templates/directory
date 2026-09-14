@@ -7,13 +7,13 @@
   "date-added": "2025-07-16",
   "slug": "builduo",
   "related": [
+    "elva",
     "poe-api",
     "helix",
     "smythos",
     "zen-agents",
     "buildship",
     "amazon-sagemaker",
-    "cactal",
-    "chartcraft"
+    "cactal"
   ]
 }

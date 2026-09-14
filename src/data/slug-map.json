@@ -923,6 +923,9 @@
   "droidrun": [
     "developer"
   ],
+  "elva": [
+    "developer"
+  ],
   "evolink": [
     "developer"
   ],
@@ -1305,6 +1308,9 @@
     "enterprise"
   ],
   "nanonets": [
+    "enterprise"
+  ],
+  "naoma-ai": [
     "enterprise"
   ],
   "normal": [
@@ -1931,6 +1937,9 @@
   "image-text-editor": [
     "photos"
   ],
+  "image-to-image": [
+    "photos"
+  ],
   "imagine2": [
     "photos"
   ],
@@ -2262,6 +2271,9 @@
     "productivity"
   ],
   "orchestra": [
+    "productivity"
+  ],
+  "orkas": [
     "productivity"
   ],
   "otter": [
@@ -2889,6 +2901,9 @@
     "video"
   ],
   "pixverse": [
+    "video"
+  ],
+  "pixwit": [
     "video"
   ],
   "popugc": [

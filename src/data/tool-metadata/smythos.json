@@ -12,8 +12,8 @@
     "zen-agents",
     "amazon-sagemaker",
     "cactal",
+    "elva",
     "builduo",
-    "atla",
-    "helix"
+    "atla"
   ]
 }

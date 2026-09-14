@@ -9,11 +9,11 @@
   "related": [
     "photo-editor",
     "photoleap",
+    "image-to-image",
     "remove-background-by-picsart",
     "bria",
     "hama",
     "add-person-to-photo",
-    "image-text-editor",
-    "clipdrop"
+    "image-text-editor"
   ]
 }

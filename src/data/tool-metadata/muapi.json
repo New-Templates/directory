@@ -7,13 +7,13 @@
   "date-added": "2025-07-31",
   "slug": "muapi",
   "related": [
+    "image-to-image",
     "imagine2",
     "graficai",
     "fotol-image-generator",
     "promptwall",
     "magnific",
     "ai-image-combiner",
-    "blur-background",
-    "image-describer"
+    "blur-background"
   ]
 }

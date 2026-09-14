@@ -9,11 +9,11 @@
   "related": [
     "bulk-image-generator",
     "imggen-ai",
+    "image-to-image",
     "graficai",
     "fotol-image-generator",
     "image-optimizer",
     "ezmaker-ai",
-    "ez-img-editor",
-    "promptwall"
+    "ez-img-editor"
   ]
 }

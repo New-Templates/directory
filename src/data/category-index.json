@@ -21,7 +21,7 @@
   },
   "developer": {
     "title": "Developer",
-    "count": 86
+    "count": 87
   },
   "education": {
     "title": "Education",
@@ -29,7 +29,7 @@
   },
   "enterprise": {
     "title": "Enterprise",
-    "count": 65
+    "count": 66
   },
   "fashion": {
     "title": "Fashion",
@@ -61,11 +61,11 @@
   },
   "photos": {
     "title": "Photos",
-    "count": 96
+    "count": 97
   },
   "productivity": {
     "title": "Productivity",
-    "count": 110
+    "count": 111
   },
   "prompts": {
     "title": "Prompts",
@@ -85,7 +85,7 @@
   },
   "video": {
     "title": "Video",
-    "count": 116
+    "count": 117
   },
   "xtras": {
     "title": "Xtras",

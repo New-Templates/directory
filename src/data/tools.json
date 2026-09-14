@@ -2499,6 +2499,14 @@
           "slug": "droidrun"
         },
         {
+          "title": "elva",
+          "body": "API management for AI agents.",
+          "tag": "Freemium",
+          "url": "https://getelva.ai/?ref=riseofmachine.com",
+          "date-added": "2026-09-15",
+          "slug": "elva"
+        },
+        {
           "title": "EVOLink",
           "body": "Pay less for top image, video & chat models.",
           "tag": "$X One-time",
@@ -2666,14 +2674,14 @@
           "date-added": "2023-12-28",
           "slug": "open-interpreter"
         },
-    {
-      "title": "OrcaReplay",
-      "body": "Record an agent run and replay it offline.",
-      "tag": "Open-source",
-      "url": "https://github.com/Continuum-AI-Corp/OrcaReplay?ref=riseofmachine.com",
-      "date-added": "2026-09-13",
-      "slug": "orcareplay"
-    },
+        {
+          "title": "OrcaReplay",
+          "body": "Record an agent run and replay it offline.",
+          "tag": "Open-source",
+          "url": "https://github.com/Continuum-AI-Corp/OrcaReplay?ref=riseofmachine.com",
+          "date-added": "2026-09-13",
+          "slug": "orcareplay"
+        },
         {
           "title": "Orchids",
           "body": "The AI Full Stack Engineer.",
@@ -3533,6 +3541,14 @@
           "url": "https://nanonets.com/?ref=riseofmachine.com",
           "date-added": "2023-12-15",
           "slug": "nanonets"
+        },
+        {
+          "title": "Naoma AI",
+          "body": "AI sales agent runs demos.",
+          "tag": "Freemium",
+          "url": "https://naoma.ai/?ref=riseofmachine.com",
+          "date-added": "2026-09-15",
+          "slug": "naoma-ai"
         },
         {
           "title": "Normal",
@@ -5248,6 +5264,14 @@
           "slug": "image-text-editor"
         },
         {
+          "title": "Image to Image",
+          "body": "AI image generation and editing.",
+          "tag": "Freemium",
+          "url": "https://image-to-image-jp.com/?ref=riseofmachine.com",
+          "date-added": "2026-09-15",
+          "slug": "image-to-image"
+        },
+        {
           "title": "Imagine2",
           "body": "Browser-based AI image generation editor.",
           "tag": "Freemium",
@@ -6140,6 +6164,14 @@
           "url": "https://orch.so/?ref=riseofmachine.com",
           "date-added": "2025-11-12",
           "slug": "orchestra"
+        },
+        {
+          "title": "Orkas",
+          "body": "Coordinates AI agents on desktop.",
+          "tag": "Freemium",
+          "url": "https://orkas.ai/?source=dir_risemachine&ref=riseofmachine.com",
+          "date-added": "2026-09-15",
+          "slug": "orkas"
         },
         {
           "title": "Otter",
@@ -7842,6 +7874,14 @@
           "url": "https://pixverse.ai/?ref=riseofmachine.com",
           "date-added": "2023-12-26",
           "slug": "pixverse"
+        },
+        {
+          "title": "Pixwit",
+          "body": "AI video studio for creators.",
+          "tag": "Freemium",
+          "url": "https://pixwit.ai/?ref=riseofmachine.com",
+          "date-added": "2026-09-15",
+          "slug": "pixwit"
         },
         {
           "title": "PopUGC",

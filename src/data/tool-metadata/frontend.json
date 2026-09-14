@@ -7,13 +7,13 @@
   "date-added": "2025-06-06",
   "slug": "frontend",
   "related": [
+    "elva",
     "orcareplay",
     "yylo",
     "agent-qa",
     "cactal",
     "chartcraft",
     "sqlmate",
-    "markitdown",
-    "not-human-search"
+    "markitdown"
   ]
 }
